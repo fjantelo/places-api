@@ -1,6 +1,6 @@
 class PlacesController < ApplicationController
   def index
-    places = Places.all
+    places = Place.all
     render json: places.as_json
   end
 
